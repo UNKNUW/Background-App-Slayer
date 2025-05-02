@@ -17,7 +17,7 @@ Dirancang modular agar mudah disesuaikan hanya dengan edit file teks, tanpa perl
 - 3 Mode kerja:
   - `1` **Normal** – ringan dan aman.
   - `2` **Aggressive** – lebih banyak aplikasi ditutup.
-  - `3` **Extreme** – semua dibantai (termasuk app sistem yang ga penting) kecuali list extreme.txt
+  - `3` **Extreme** – semua dibantai (termasuk app sistem yang ga penting) KECUALI list extreme.txt
 - Konfigurasi lewat file teks:
   - `gamelist.txt` – daftar game yang memicu aksi.
   - `whitelist.txt` – aplikasi yang tidak akan ditutup.
