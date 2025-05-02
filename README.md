@@ -1,6 +1,6 @@
 ![Background-App-Slayer logo](./LOGO.png)
 
-# Background App Slayer (BAS) v5.0.5
+# Background App Slayer (BAS)
 
 **Modul Magisk pembasmi aplikasi latar belakang otomatis.**  
 Versi ini adalah pembaruan besar dari proyek SmartAppClose lama.
@@ -65,7 +65,7 @@ Kalau ingin menambahkan aplikasi untuk dilindungi:
 - Gunakan **sesuai kebutuhan**, terutama untuk Mode 3.
 - Jangan aktifkan Mode Extreme terus-menerus, HP kamu bisa ngambek!
 - Kalau ada bug, **jangan lapor ke service center**, apalagi **lapor polisi**. Lapornya ke sini saja:
-  [Telegram](https://t.me/unknuwprojects)
+  [TELEGRAM](https://t.me/unknuwprojects)
 
 ---
 
