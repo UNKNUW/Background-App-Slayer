@@ -17,12 +17,12 @@ Dirancang modular agar mudah disesuaikan hanya dengan edit file teks, tanpa perl
 - 3 Mode kerja:
   - `1` **Normal** – ringan dan aman.
   - `2` **Aggressive** – lebih banyak aplikasi ditutup.
-  - `3` **Extreme** – semua dibantai kecuali yang dilindungi!
+  - `3` **Extreme** – semua dibantai (termasuk app sistem yang ga penting) kecuali list extreme.txt
 - Konfigurasi lewat file teks:
   - `gamelist.txt` – daftar game yang memicu aksi.
   - `whitelist.txt` – aplikasi yang tidak akan ditutup.
   - `extreme.txt` – daftar aplikasi yang akan dilindungi di Mode 3.
-  - `mode.txt` – menentukan mode kerja (1, 2, 3).
+  - `mode.txt` – menentukan mode kerja (1, 2, 3).j
 - Logging aktivitas di `/data/adb/modules/appslayer/log/`
 - Ringan, fleksibel, tidak perlu reboot saat ganti konfigurasi.
 - Bonus: Jalankan `sh action.sh` dari terminal untuk cek status mode dan sistem.
