@@ -1,0 +1,74 @@
+
+==============================
+  BACKGROUND APP SLAYER 5.0.5
+==============================
+
+Hai user cerdas! Selamat datang di era baru pembantai aplikasi latar belakang!
+
+Modul ini bernama **Background App Slayer (BAS)**, versi 5.0.5 — pembaruan besar dari modul lama SmartAppClose.
+Kalau kamu pernah merasa HP kamu lemot padahal cuma buka satu game, nah... inilah solusi sakti-nya!
+
+=================================
+  KEUNGGULAN BAS vs SmartAppClose
+=================================
+- BAS 5.0.5 sudah modular! Gak perlu repot ganti skrip, cukup edit file `.txt`.
+- Terdapat 3 Mode Kerja: 
+    • Mode 1 = Normal  (santai kayak di pantai)
+    • Mode 2 = Aggressive (lebih ganas)
+    • Mode 3 = Extreme (RAWRR... semua dibantai, kecuali yang kamu lindungi)
+- Bisa atur whitelist dan gamelist langsung dari folder modul.
+- Logging sistem berjalan, kamu bisa cek siapa yang 'dibantai'.
+- Lebih ringan, cepat, fleksibel dan ramah pengguna awam.
+
+=======================
+  FITUR-FITUR UTAMA
+=======================
+- Auto-kill aplikasi background saat main game.
+- Konfigurasi mudah lewat:
+    • gamelist.txt     → isi package game yang kamu mainkan
+    • whitelist.txt    → aplikasi yang ingin kamu lindungi (umum, semua mode)
+    • extreme.txt      → daftar aplikasi yang akan DILINDUNGI saat mode 3 (bukan dibunuh!)
+    • mode.txt         → pilih mode kerja (1, 2, atau 3)
+- File log di `/data/adb/modules/appslayer/log/` untuk tracking.
+
+===========================
+  CARA INSTALL MODUL BAS
+===========================
+1. Flash lewat Magisk Manager / KernelSU / KSU Next:
+    - Masuk ke Magisk > Modules > Install from storage
+    - Pilih zip modul BAS 5.0.5
+    - Reboot, selesai!
+
+2. Atur konfigurasi:
+    - Buka folder `/data/adb/modules/appslayer/`
+    - Edit file `mode.txt` → isi dengan angka 1, 2, atau 3
+    - Tambahkan game kamu ke `gamelist.txt` (pakai nama package)
+    - Tambahkan aplikasi yang ingin dilindungi ke `whitelist.txt`
+    - Untuk mode Extreme (3), isi `extreme.txt` dengan package yang INGIN kamu lindungi.
+
+===========================
+  ⚠️ PENTING! MODE EXTREME ⚠️
+===========================
+Mode Extreme (3) akan membunuh semua aplikasi... KECUALI yang ada di `extreme.txt`  
+Jangan sekali-sekali hapus isi default di `extreme.txt`, itu bisa bikin sistem kamu kacau!
+
+Kalau kamu mau lindungi aplikasi tertentu saat pakai mode 3, cukup tambahkan package-nya:
+  → di baris PALING ATAS atau PALING BAWAH file `extreme.txt`
+
+===========================
+|          ⚡ WARNING ⚡          |
+===========================
+⚠️ Gunakan sesuai kebutuhan! Mode 3 hanya dipakai saat kamu mau main game berat yang butuh RAM lega.  
+⚠️ Jangan sok-sokan pakai Mode Extreme tiap hari, HP kamu bisa ngambek dan diem seribu bahasa!  
+⚠️ Kalau ada bug, lapor ke grup: https://t.me/unknuwprojects  
+⚠️ JANGAN LAPOR KE SERVICE CENTER, apalagi LAPOR POLISI, ntar malah disangka kamu Hacker!  
+
+===========================
+ 🚨 DO WITH YOUR OWN RISK 🚨
+===========================
+Ini modul untuk opreker sejati. Jadi, kalau ada yang error atau bug, jangan nyalahin orang.  
+Bijaklah dalam memilih mode. BAS cuma alat, bukan Dewa Penyelamat RAM.
+
+Selamat mencoba dan selamat ngoprek!
+
+-- @unknuw Projects Team
