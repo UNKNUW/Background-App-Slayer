@@ -1,6 +1,6 @@
 ![Background-App-Slayer logo](./LOGO.png)
 
-# 🛡️ Background App Slayer (BAS) v5.0.5
+# Background App Slayer (BAS) v5.0.5
 
 **Modul Magisk pembasmi aplikasi latar belakang otomatis.**  
 Versi ini adalah pembaruan besar dari proyek SmartAppClose lama.
