@@ -65,7 +65,7 @@ Kalau ingin menambahkan aplikasi untuk dilindungi:
 - Gunakan **sesuai kebutuhan**, terutama untuk Mode 3.
 - Jangan aktifkan Mode Extreme terus-menerus, HP kamu bisa ngambek!
 - Kalau ada bug, **jangan lapor ke service center**, apalagi **lapor polisi**. Lapornya ke sini saja:
-  [https://t.me/unknuwprojects](https://t.me/unknuwprojects)
+  [Telegram](https://t.me/unknuwprojects)
 
 ---
 
