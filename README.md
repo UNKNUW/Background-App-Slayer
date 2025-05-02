@@ -1,3 +1,4 @@
+![Background-App-Slayer logo](./logo.png)
 
 # 🛡️ Background App Slayer (BAS) v5.0.5
 
