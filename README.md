@@ -55,7 +55,7 @@ Dirancang modular agar mudah disesuaikan hanya dengan edit file teks, tanpa perl
 ## ⚠️ Penting Tentang Mode Extreme
 
 Mode 3 (Extreme) akan menutup semua aplikasi **kecuali** yang ada di `extreme.txt`.  
-JANGAN hapus isi default file tersebut — itu bisa membuat sistem error.
+JANGAN hapus isi default file tersebut — itu bisa membuat SISTEM ERROR dan FREEZE 
 
 Kalau ingin menambahkan aplikasi untuk dilindungi:
 - Tambahkan di **baris paling atas** atau **paling bawah** file `extreme.txt`.
