@@ -9,7 +9,7 @@ Versi ini adalah pembaruan besar dari proyek SmartAppClose lama.
 
 Background App Slayer (BAS) membantu kamu mendapatkan performa maksimal saat bermain game.  
 Dengan cara menutup aplikasi-aplikasi latar belakang secara otomatis saat game dijalankan.  
-Dirancang modular agar mudah disesuaikan hanya dengan edit file teks, tanpa perlu coding ulang.
+Dirancang modular agar mudah disesuaikan hanya dengan edit file teks, tanpa perlu termux atau coding ulang.
 
 ## ⚙️ Fitur Unggulan
 
