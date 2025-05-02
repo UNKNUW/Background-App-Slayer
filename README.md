@@ -67,6 +67,8 @@ Kalau ingin menambahkan aplikasi untuk dilindungi:
 - Kalau ada bug, **jangan lapor ke service center**, apalagi **lapor polisi**. Lapornya ke sini saja:
   [https://t.me/unknuwprojects](https://t.me/unknuwprojects)
 
+---
+
 > **DO WITH YOUR OWN RISK**  
 > Kamu tanggung sendiri kalau terjadi sesuatu.
 
