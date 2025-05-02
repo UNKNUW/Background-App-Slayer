@@ -25,7 +25,7 @@ Dirancang modular agar mudah disesuaikan hanya dengan edit file teks, tanpa perl
   - `mode.txt` – menentukan mode kerja (1, 2, 3).j
 - Logging aktivitas di `/data/adb/modules/appslayer/log/`
 - Ringan, fleksibel, tidak perlu reboot saat ganti konfigurasi.
-- Bonus: Jalankan `sh action.sh` dari terminal untuk cek status mode dan sistem.
+- Action Button di Magisk/KSU Manager untuk cek status mode dan sistem.
 
 ## 🆚 Perbandingan dengan SmartAppClose
 
