@@ -68,7 +68,7 @@ Kalau ingin menambahkan aplikasi untuk dilindungi:
   [https://t.me/unknuwprojects](https://t.me/unknuwprojects)
 
 > **DO WITH YOUR OWN RISK**  
-> Backup dulu sebelum pakai. Kamu tanggung sendiri kalau terjadi sesuatu.
+> Kamu tanggung sendiri kalau terjadi sesuatu.
 
 ---
 
