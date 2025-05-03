@@ -67,9 +67,10 @@ Kalau ingin menambahkan aplikasi untuk dilindungi:
 - Kalau ada bug, **jangan lapor ke service center**, apalagi **lapor polisi**. Lapornya ke sini saja:
   [TELEGRAM](https://t.me/unknuwprojects)
 
----
 ## Untuk Users Android 11  
 Jika mengalami error saat install, pakai yang sama seperti project sebelumnya [klik di sini](./for_Android_11.md)
+
+---
 
 > **DO WITH YOUR OWN RISK**  
 > Kamu tanggung sendiri kalau terjadi sesuatu.
