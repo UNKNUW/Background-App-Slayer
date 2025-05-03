@@ -22,7 +22,7 @@ Dirancang modular agar mudah disesuaikan hanya dengan edit file teks, tanpa perl
   - `gamelist.txt` – daftar game yang memicu aksi.
   - `whitelist.txt` – aplikasi yang tidak akan ditutup.
   - `extreme.txt` – daftar aplikasi yang akan dilindungi di Mode 3.
-  - `mode.txt` – menentukan mode kerja (1, 2, 3).j
+  - `mode.txt` – menentukan mode kerja (1, 2, 3).
 - Logging aktivitas di `/data/adb/modules/appslayer/log/`
 - Ringan, fleksibel, tidak perlu reboot saat ganti konfigurasi.
 - Action Button di Magisk/KSU Manager untuk cek status mode dan sistem.
