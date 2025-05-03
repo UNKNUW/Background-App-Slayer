@@ -3,7 +3,7 @@
 # Background App Slayer (BAS)
 
 **Modul Magisk pembasmi aplikasi latar belakang otomatis.**  
-Versi ini adalah pembaruan besar dari proyek SmartAppClose lama.
+Versi ini adalah pembaruan besar dari proyek [SmartAppClose](https://github.com/UNKNUW/SmartAppClose) lama.
 
 ## ✨ Deskripsi Modul
 
