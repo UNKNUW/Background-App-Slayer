@@ -68,7 +68,7 @@ Kalau ingin menambahkan aplikasi untuk dilindungi:
   [TELEGRAM](https://t.me/unknuwprojects)
 
 ## 🤖 Untuk Users Android 11  
-Jika mengalami error saat install, pakai cara yang sama seperti project sebelumnya [klik di sini](https://github.com/UNKNUW/SmartAppClose/blob/main/for_Android_11.md))
+Jika mengalami error saat install, pakai cara yang sama seperti project sebelumnya [klik di sini](https://github.com/UNKNUW/SmartAppClose/blob/main/for_Android_11.md)
 
 ---
 
