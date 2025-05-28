@@ -3,7 +3,18 @@
 - Fix Tombol Eksekusi sekarang 
 - Fix Delay Kill App
 - Improved Performance 
-- Fix Crash saat eksekusi mode Extreme 
+- Fix Crash saat eksekusi mode Extreme
+
+## V5.1.0
+- Ditambahkan tombol "Eksekusi Sekarang" di aplikasi, memungkinkan pengguna menjalankan mode saat ini secara langsung, tanpa menunggu deteksi game.
+- Aplikasi kini akan menampilkan notifikasi jika versi baru tersedia, dan mendukung proses update langsung dari dalam aplikasi.
+- Untuk di MODE 2 (AGRESIF) pemilihan governor kini menggunakan governor userspace dengan mengatur 75% dari frekuensi maksimum kernel. Jika userspace tidak tersedia di kernel, sistem akan otomatis menggunakan performance, 
+Hal ini menggantikan governor interactive yang tidak selalu tersedia di semua kernel.
+### Cara cek governor apa aja yang tersedia di kernel melalui Termux:
+```
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_available_governors
+```
+- Modul kini tidak hanya otomatis, tapi juga memberi kendali manual dan update yang informatif.
 
 ## V5.0.7 :
 - ⚙️ Optimalisasi Proses:
@@ -29,7 +40,6 @@ pm list packages -f | sed 's/package://g' > /sdcard/list.txt
 - Kirim file list.txt ke grup. Nanti saya akan cek dan tambahkan ke daftar Extreme.txt, biar ke depannya lebih aman dan stabil.
 
 ## V5.0.5
-
 ### 🎉 Apa yang Baru?
 - Rilis publik perdana Background App Slayer (BAS)!
 - Konfigurasi full pakai file teks. Gak ribet, tinggal edit aja.
