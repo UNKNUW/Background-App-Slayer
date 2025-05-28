@@ -1,0 +1,34 @@
+name: Auto Update JSON
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: Create update.json
+      run: |
+        RELEASE_TAG="${{ github.event.release.tag_name }}"
+        CHANGELOG="${{ github.event.release.body }}"
+        ZIP_NAME="BAS_${RELEASE_TAG}.zip"
+        ZIP_URL="https://github.com/${{ github.repository }}/releases/download/${RELEASE_TAG}/${ZIP_NAME}"
+
+        echo "{
+  \"version\": \"${RELEASE_TAG}\",
+  \"versionCode\": \"${RELEASE_TAG//./}\",
+  \"zipUrl\": \"${ZIP_URL}\",
+  \"changelog\": $(echo \"$CHANGELOG\" | jq -R -s -c 'split("\n")')
+}" > update.json
+
+    - name: Commit and Push update.json
+      run: |
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+        git add update.json
+        git commit -m "Auto-update update.json for ${{ github.event.release.tag_name }}"
+        git push
