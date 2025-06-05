@@ -1,4 +1,4 @@
-## V5.1,2
+## V5.1.2
 ### Apa yang baru?
 - Add Total Aplikasi yang telah dibersihkan.
 - Add ExtraKill berfungsi untuk memasukkan daftar apk yang ingin dibersihkan seperti Playstor, google kesehatan dll.
