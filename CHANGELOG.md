@@ -1,9 +1,22 @@
 ## V5.1.2
 ### Apa yang baru?
-- Add Total Aplikasi yang telah dibersihkan.
-- Add ExtraKill berfungsi untuk memasukkan daftar apk yang ingin dibersihkan seperti Playstor, google kesehatan dll.
-- Perubahan DROP_CACHE kini di semua mode sama agar cache pada RAM benar-benar Bersih.
-- Add Informasi Toast jika eksekusi Telah selesai.
+
+- ✅ **Menambahkan informasi total aplikasi yang telah dibersihkan.**
+
+- 🚀 **Fitur baru: ExtraKill**  
+  - Menggunakan file `listkill.txt` untuk menentukan daftar paket aplikasi yang ingin dibersihkan, seperti Play Store, Google Kesehatan, dll.  
+  - Secara default, `listkill.txt` sudah berisi beberapa aplikasi Google yang dianggap tidak terlalu penting.  
+  - Silakan hapus package name yang menurutmu penting dan tambahkan aplikasi lain sesuai kebutuhan.
+
+- 🧹 **Perubahan pada `DROP_CACHE`**  
+  - Kini berlaku sama di semua mode, untuk memastikan cache pada RAM benar-benar dibersihkan.
+
+- 🔔 **Penambahan notifikasi dan toast**  
+  - Muncul setelah proses eksekusi selesai.
+
+- 🎮 **Daftar game (`gamelist.txt`) diperbarui**  
+  - Beberapa game populer sudah didaftarkan.  
+  - Jika game kamu belum terdaftar, silakan tambahkan sendiri secara manual.
 
 ## v5.1.1
 - Fix Notifikasi 
