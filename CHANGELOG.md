@@ -1,3 +1,10 @@
+## V5.1,2
+### Apa yang baru?
+- Add Total Aplikasi yang telah dibersihkan.
+- Add ExtraKill berfungsi untuk memasukkan daftar apk yang ingin dibersihkan seperti Playstor, google kesehatan dll.
+- Perubahan DROP_CACHE kini di semua mode sama agar cache pada RAM benar-benar Bersih.
+- Add Informasi Toast jika eksekusi Telah selesai.
+
 ## v5.1.1
 - Fix Notifikasi 
 - Fix Tombol Eksekusi sekarang 
